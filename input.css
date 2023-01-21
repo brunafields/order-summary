@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* #main {
+background-image: url('../images/pattern-background-desktop.svg');
+background-repeat: no-repeat;
+position: relative;
+} */
+
