@@ -16,7 +16,7 @@
 </head>
 
 <body class="bg-paleBlue bg-no-repeat " style="background-image: url(images/pattern-background-desktop.svg);">
-  <section class=" flex items-center justify-center font-sans">
+  <main class="flex justify-center pt-12 font-sans">
     <!-- Container -->
     <div class="max-w-sm bg-white m-16 pb-6 rounded-xl">
       <!-- Image -->
@@ -35,7 +35,7 @@
         <div class="flex items-center text-left">
           <img src="images/icon-music.svg" alt="" class="pr-4">
           <div>
-            <h5 class="text-md font-bold text-darkBlue">Annual Plan</h5>
+            <p class="text-md font-bold text-darkBlue">Annual Plan</p>
             <p class="text-sm text-desaturatedBlue">$59.99/year</p>
           </div>
         </div>
@@ -44,14 +44,15 @@
       </div>
 
       <!-- Payment area -->
-      <div class="bg-brightBlue text-white text-center font-semibold p-5 m-6 rounded-2xl shadow-xl hover:bg-lightBlue">
-        <button>Proceed to Payment</button>
-      </div>
-      <div class="text-center text-desaturatedBlue font-bold p-2 hover:text-darkBlue">
-        <button> Cancel Order</button>
-      </div>
+      <section id="payment" class="text-center">
+        <button
+          class=" bg-brightBlue text-white font-semibold py-4 px-20 m-6 rounded-2xl shadow-xl hover:bg-lightBlue">Proceed
+          to Payment</button>
+        <br>
+        <button class="text-center text-desaturatedBlue font-bold p-2 hover:text-darkBlue"> Cancel Order</button>
+      </section>
     </div>
-  </section>
+  </main>
 </body>
 
 </html>
